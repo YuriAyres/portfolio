@@ -1,0 +1,61 @@
+.card {
+  padding: 2rem;
+
+  background: var(--color-surface);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  transition:
+    transform var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+
+  border-color: var(--color-primary);
+}
+
+.title {
+  margin-bottom: 1rem;
+
+  font-size: 1.5rem;
+}
+
+.description {
+  margin-bottom: 1.5rem;
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.7;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.tech {
+  padding: 0.5rem 0.9rem;
+
+  border-radius: var(--radius-full);
+
+  background: rgba(255, 255, 255, 0.05);
+
+  font-size: 0.9rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  color: var(--color-primary);
+
+  font-weight: 600;
+}

@@ -1,0 +1,15 @@
+.projects {
+  padding: var(--spacing-xl) 0;
+}
+
+.title {
+  margin-bottom: var(--spacing-lg);
+
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.grid {
+  display: grid;
+  gap: var(--spacing-md);
+}

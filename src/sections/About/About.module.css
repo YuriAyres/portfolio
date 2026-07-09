@@ -1,0 +1,23 @@
+.about {
+  padding: var(--spacing-xl) 0;
+}
+
+.content {
+  max-width: 800px;
+}
+
+.title {
+  margin-bottom: var(--spacing-md);
+
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.text {
+  margin-bottom: var(--spacing-md);
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
