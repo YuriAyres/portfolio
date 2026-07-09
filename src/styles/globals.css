@@ -1,4 +1,14 @@
 @import './variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+@font-face {
+    font-family: octopus;
+    src: url('../assets/fonts/Octopus Game.otf') format('opentype'),
+         url('../assets/fonts/Octopus Game.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 *,
 *::before,
@@ -16,15 +26,10 @@ body {
     min-width: 320px;
     min-height: 100vh;
 
-    font-family:
-        Inter,
-        system-ui,
-        -apple-system,
-        BlinkMacSystemFont,
-        'Segoe UI',
-        sans-serif;
+    font-family: "Montserrat", system-ui;
 
-    background-color: var(--color-background);
+    background: var(--color-background-gradient);
+    background-attachment: fixed;
     color: var(--color-text);
 
     -webkit-font-smoothing: antialiased;

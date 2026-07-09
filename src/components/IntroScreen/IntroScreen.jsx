@@ -5,7 +5,7 @@ function IntroScreen({ onEnter }) {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Yuri Ayres
+          Yuri Ayres de Paula
         </h1>
 
         <p className={styles.subtitle}>

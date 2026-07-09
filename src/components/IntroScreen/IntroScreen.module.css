@@ -21,9 +21,10 @@
 .title {
   margin: 0;
 
-  font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 700;
-  line-height: 1;
+  font-family: "Allison", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(3rem, 6vw, 6rem);
 }
 
 .subtitle {
@@ -34,25 +35,29 @@
 }
 
 .button {
-  margin-top: 1rem;
-
-  padding: 0.9rem 2rem;
+  font-family: 'octopus';
+  padding: 1rem 3rem;
 
   border: none;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
 
-  font-size: 1rem;
-  font-weight: 600;
+  background: transparent;
+  color: var(--color-text);
 
   cursor: pointer;
 
+  transform: scale(1);
+
   transition:
-    transform 0.2s ease,
-    opacity 0.2s ease;
+    transform var(--transition-fast),
+    background-color var(--transition-normal),
+    box-shadow var(--transition-normal);
 }
 
 .button:hover {
-  transform: translateY(-2px);
+  transform: scale(1.08);
+  background: rgba(245, 245, 245, .164);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.308);
 }
 
 .button:active {
